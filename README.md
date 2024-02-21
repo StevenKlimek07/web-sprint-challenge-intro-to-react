@@ -54,7 +54,7 @@ As a front-end engineer, your focus is mainly on the files that load **on the us
 
 1. After successful installation, **execute `npm run dev` in a terminal, and `npm test` in a different terminal**. On successful start, you will load the app in Chrome **at `http://localhost:3003`**.
 
-1. If you haven't already, install the [Eslint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) for VSCode. It will highlight syntax errors and problems right inside your editor, which saves tons of time.
+1. If you haven't already, install the [Eslint extension](https:/marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) for VSCode. It will highlight syntax errors and problems right inside your editor, which saves tons of time.
 
 My job assisting you with local setup of the app is done! You will speak to our designer next.
 
