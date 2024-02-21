@@ -8,8 +8,8 @@ function Character({ character }) {
     };
 
     return (
-        <div>
-            <h3>{character.name}</h3>
+        <div className='character-card'>
+            <h3 className='character-name'>{character.name}</h3>
             <p onClick={toggleHomeworld}>Planet: {showHomeworld && <span className="character-planet">{character.homeworld}</span>}</p>
         </div>
     );
