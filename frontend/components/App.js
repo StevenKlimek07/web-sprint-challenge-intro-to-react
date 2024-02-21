@@ -10,7 +10,6 @@ const urlPeople = 'http://localhost:9009/api/people'
 
 function App() {
     const [characters, setCharacters] = useState([]);
-    const [loadingData, setLoadingData] = useState(true);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -28,10 +27,9 @@ function App() {
 
                 // Set combined data and update loading state
                 setCharacters(combinedData);
-                setLoadingData(false);
+
             } catch (error) {
                 console.error('Error fetching data:', error);
-                setLoadingData(false);
             }
         };
 
